@@ -11,13 +11,13 @@ const Contact = () => {
                 </div>
                 <div className=' flex flex-col gap-5 pt-6 min-w-60  items-center'>
                     <b className=' '>Our Office</b>
-                    <p className=' text-gray-600'>00000 Willms Station<br />
-                        Suite 000, Washington, USA</p>
+                    <p className=' text-gray-600'>Hamro Office<br />
+                        dallu 000, kathmandu, Nepal</p>
                     <p className=' text-gray-700'>
                         Tel: (000) 000-0000<br />
-                        Email: greatstackdev@gmail.com
+                        Email: smith@gmail.com
                     </p>
-                    <b className=' text-[17px] text-gray-600'>CAREERS AT PRESCRIPTO</b>
+                    <b className=' text-[17px] text-gray-600'>CAREERS AT HAMRO OFFICE</b>
                     <p className=' text-sm '>Learn more about our teams and job openings</p>
                     <button className=' text-sm hover:bg-primary transition-all duration-500 hover:text-white md:max-w-40 border border-gray-500 px-4 py-4'>Explore Now</button>
                 </div>
