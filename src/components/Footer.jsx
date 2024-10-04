@@ -25,7 +25,7 @@ const Footer = () => {
                             <>
                                 <NavLink to={navbar.href}>
 
-                                    <li key={index}  >{navbar.name}</li>
+                                    <li onClick={() => { scrollTo(0, 0); navigate(navbar.href) }} key={index}  >{navbar.name}</li>
                                 </NavLink>
 
                             </>
