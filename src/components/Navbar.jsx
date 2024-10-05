@@ -75,8 +75,8 @@ const Navbar = () => {
                             </div>
                             <div className=' hidden group-hover:block  absolute -top-0  -left-30 pt-9  font-medium text-black z-50 '>
                                 <div className='flex  flex-col gap-4 min-w-44 bg-stone-100 p-4'>
-                                    <p onClick={() => { navigate("/my-profile"); setShowMenu(false) }} className=' hover:text-black cursor-pointer'>My Profile</p>
-                                    <p onClick={() => { navigate("/my-appointment"); setShowMenu(false) }} className=' hover:text-black cursor-pointer'>My appointment</p>
+                                    <p onClick={() => { scrollTo(0, 0); navigate("/my-profile"); setShowMenu(false) }} className=' hover:text-black cursor-pointer'>My Profile</p>
+                                    <p onClick={() => { scrollTo(0, 0); navigate("/my-appointment"); setShowMenu(false) }} className=' hover:text-black cursor-pointer'>My appointment</p>
                                     <p onClick={() => { setToken(false); setShowMenu(false) }} className=' hover:text-black cursor-pointer'>Logout</p>
 
                                 </div>
